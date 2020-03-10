@@ -1,0 +1,11 @@
+{
+  "name": "@github/prettier-config",
+  "version": "0.0.0",
+  "description": "Prettier config used at GitHub",
+  "keywords": [
+    "prettier"
+  ],
+  "license": "MIT",
+  "author": "GitHub Inc.",
+  "main": "index.js"
+}
