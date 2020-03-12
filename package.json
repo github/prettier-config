@@ -1,6 +1,6 @@
 {
   "name": "@github/prettier-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Prettier config used at GitHub",
   "keywords": [
     "prettier"
