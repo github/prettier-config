@@ -2,6 +2,7 @@
   "name": "@github/prettier-config",
   "version": "0.0.2",
   "description": "Prettier config used at GitHub",
+  "repository": "github/prettier-config",
   "keywords": [
     "prettier"
   ],
