@@ -6,6 +6,9 @@
   "keywords": [
     "prettier"
   ],
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "author": "GitHub Inc.",
   "main": "index.js",
