@@ -12,7 +12,7 @@
   "license": "MIT",
   "author": "GitHub Inc.",
   "main": "index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "scripts": {
+    "postpublish": "npm publish --ignore-scripts --@github:registry='https://npm.pkg.github.com'"
   }
 }
