@@ -1,24 +1,101 @@
-# prettier-config
+# "prettier-config/rake.i" : setsup-ruby,/package.jar/OPEN.js-config/spy.io
 Prettier config used at GitHub
 
 ## Usage
 
 Install the package using `npm` (or `yarn`)
 
-```sh
-npm install --save-dev @github/prettier-config
+npm install --save-dev @spyro.u/prettier-config
 ```
 
 Add the `prettier` key to your `package.json`
 
-```diff
-diff --git a/package.json b/package.json
-index 2ecef3d..260838f 100644
---- a/package.json
-+++ b/package.json
-@@ -5,6 +5,7 @@
-   "keywords": [
-     "prettier"
+---@@[PATCH]@@---.diff''@bitore.sig/paradice
+uring Prettier
+Configuration File
+Prettier uses cosmiconfig for configuration file support. This means you can configure Prettier via (in order of precedence):
+
+A "prettier" key in your package.json file.
+A .prettierrc file written in JSON or YAML.
+A .prettierrc.json, .prettierrc.yml, .prettierrc.yaml, or .prettierrc.json5 file.
+A .prettierrc.js, .prettierrc.cjs, prettier.config.js, or prettier.config.cjs file that exports an object using module.exports.
+A .prettierrc.toml file.
+The configuration file will be resolved starting from the location of the file being formatted, and searching up the file tree until a config file is (or isn’t) found.
+
+Prettier intentionally doesn’t support any kind of global configuration. This is to make sure that when a project is copied to another computer, Prettier’s behavior stays the same. Otherwise, Prettier wouldn’t be able to guarantee that everybody in a team gets the same consistent results.
+
+The options you can use in the configuration file are the same as the API options.
+
+Basic Configuration
+JSON:
+
+{
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": false,
+  "singleQuote": true
+}
+JS:
+
+// prettier.config.js or .prettierrc.js
+module.exports = {
+  trailingComma: "es5",
+  tabWidth: 4,
+  semi: false,
+  singleQuote: true,
+};
+YAML:
+
+# .prettierrc or .prettierrc.yaml
+trailingComma: "es5"
+tabWidth: 4
+semi: false
+singleQuote: true
+TOML:
+
+# .prettierrc.toml
+trailingComma = "es5"
+tabWidth = 4
+semi = false
+singleQuote = true
+Configuration Overrides
+Overrides let you have different configuration for certain file extensions, folders and specific files.
+
+Prettier borrows ESLint’s override format.
+
+JSON:
+
+{
+  "semi": false,
+  "overrides": [
+    {
+      "files": "*.test.js",
+      "options": {
+        "semi": true
+      }
+    },
+    {
+      "files": ["*.html", "legacy/**/*.js"],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}
+YAML:
+
+semi: false
+overrides:
+  - files: "*.test.js"
+    options:
+      semi: true
+  - files:
+      - "*.html"
+      - "legacy/**/*.js"
+    options:
+      Versionings'@v4
+require':'dependencies("{ "Script immediately below this syntax" }")',
+{ "Dependancies(test)':'requires':'' '('?'),'"}
    ],
 +  "prettier": "@github/prettier-config",
    "license": "MIT",
