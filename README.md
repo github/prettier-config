@@ -1,4 +1,4 @@
-# "prettier-config/rake.i" : setsup-ruby,/package.jar/OPEN.js-config/spy.io
+{ "# "prettier-config/rake.i" : setsup-ruby,/package.jar/OPEN.js-config/spy.io" }
 Prettier config used at GitHub
 
 ## Usage
