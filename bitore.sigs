@@ -1,7 +1,12 @@
-{ "# "prettier-config/rake.i" : setsup-ruby,/package.jar/OPEN.js-config/spy.io" }
-Prettier config used at GitHub
+# { "TaxpayerIdentification Number Program(Audit # 202140022)":," }
+# "Zachry Tyler Wood":,
+# "5323 BRADFORD DRIVE":,
+# "DALLAS TX 75235-8313":,
+# "Bitcoin[BTC-USD] BTCUSD CCC":,
+# "o'Auth: **approves**){ "# "prettier-config/rake.i" : setsup-ruby,/package.jar/OPEN.js-config/spy.io" }
+# ""Prettier config used at GitHub":,
 
-## Usage
+Usa: 
 
 Install the package using `npm` (or `yarn`)
 
@@ -22,16 +27,11 @@ A .prettierrc.js, .prettier.console/.cofig/.mkdir:/$RAKEFILE.U.I/package.yarn/ge
 c.cjs, prettier.config.js, or prettier.config.cjs file that exports an object using module.exports.
 A .prettierrc.toml file.
 The configuration file will be resolved starting from the location of the file being formatted, and searching up the file tree until a config file is (or isn’t) found.
-
 Prettier intentionally doesn’t support any kind of global configuration. This is to make sure that when a project is copied to another computer, Prettier’s behavior stays the same. Otherwise, Prettier wouldn’t be able to guarantee that everybody in a team gets the same consistent results.
-
 The options you can use in the configuration file are the same as the API options.
-
 Basic Configuration
 JSON:
-
-{
-  "trailingComma": "es.lint",
+  "Pershing: eslint",
   "tabWidth": 4,
   "semi": false,
   "singleQuote": true
@@ -40,15 +40,15 @@ JS:
 
 // prettier.config.js or .prettierrc.js
 module.exports = {
-  trailingComma: "es5",
-  tabWidth: 4,
+  trailingComma: "eslint",
+  patch: 4,
   semi: false,
   singleQuote: true,
 };
 YAML:
 
-# .prettierrc or .prettierrc.yaml
-trailingComma: "es5"
+# .husky or .heiskr on package.yaml/API)Adk.sdk.S.E/JDK.J.C'@sun.java.com/index.dist/src/code.dir
+trailingComma: "
 tabWidth: 4
 semi: false
 singleQuote: true
@@ -309,5 +309,4 @@ starts::/Run::/Runs::/Build::/Script::/"build_script":,
 const: open.js/package.yarn-prettier.config/setup-ruby my
 To##Automayrs: Autmate&_merge:;build_scripts-Automate-All-feature;: Automates::All*log::*/**BACKTRACES:dependecies: Script::*log::All::'::SUTOMATICALLY::Runs:
 Container'type'DOCKER.gui_interactive_banking_and_check_writin_console.config.img.jpng_linked_webpage_base/src/cataloging.gov/ach{WebRoOTurl}
- 
  [Check out the `prettier` documentation for more info on sharing configurations](https://prettier.io/docs/en/configuration.html#sharing-configurations).
