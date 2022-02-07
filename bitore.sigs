@@ -32,7 +32,7 @@ install d s python.javascript py.org -pillow ~V
 +{ "moejojojojo/paradice/bitore.sig" }
 +{ "'Run::/:' Runs::/:' Script::/:' ::#:##/starts::/:'##/Run::/:Runs::/:' #:Build:build_script: workflows_callb: dispatch" }
 +{ "build_script : Name" }
-+{ "Name : ci" }
++{ "Name : ci.yml" }
 +{ "title : build-and-deployee" }"''
 +{ "::build-and-deployee-test'@c-then-migrate-to-heroku-to-::Fix:-::All::"''
 +/her.ext/dl/install/installer/sec/code/.dir/index.dist-to-fix-all-then-deployee-heroku-to-Travis.yml-totest-Tests'@ci" }
