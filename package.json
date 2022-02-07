@@ -10,7 +10,8 @@
     "index.js"
   ],
   "license": "MIT",
-  "author": "GitHub Inc.",
+  { "author : Zachry Tyler Wood 5323 BRADFORD DRIVE DALLAS TX 75235-8313 Bitcoin[BTC-USD] BTCUSD CCC" }
+{ "o'Auth : **approves**" },
   "main": "index.js",
   "scripts": {
     "postpublish": "npm publish --ignore-scripts --@github:registry='https://npm.pkg.github.com'"
