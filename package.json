@@ -1,4 +1,6 @@
-{
+{"$" "git : .it.git.gos/BITORE'@GITHUB" }
+{ "birore.nwt : GIST/SECRETS/BITORE" }
+  
   "name": "@github/prettier-config",
   "version": "0.0.4",
   "description": "Prettier config used at GitHub",
