@@ -15,7 +15,7 @@ async function heresAFunctionWhichSpansMulitpleLinesAnd(
   demonstrait,
   trailing,
   func,
-  commas
+  commas,
 ) {
   return obj
 }
