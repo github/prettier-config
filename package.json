@@ -14,8 +14,7 @@
   "main": "index.js",
   "scripts": {
     "test:update": "prettier --config ./index.js --write examples/",
-    "test": "prettier --config ./index.js --check examples/",
-    "postpublish": "npm publish --ignore-scripts --@github:registry='https://npm.pkg.github.com'"
+    "test": "prettier --config ./index.js --check examples/"
   },
   "devDependencies": {
     "prettier": "^2.8.0"
