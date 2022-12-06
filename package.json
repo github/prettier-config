@@ -1,6 +1,6 @@
 {
   "name": "@github/prettier-config",
-  "version": "0.0.4",
+  "version": "0.0.0-development",
   "description": "Prettier config used at GitHub",
   "repository": "github/prettier-config",
   "keywords": [
@@ -14,8 +14,7 @@
   "main": "index.js",
   "scripts": {
     "test:update": "prettier --config ./index.js --write examples/",
-    "test": "prettier --config ./index.js --check examples/",
-    "postpublish": "npm publish --ignore-scripts --@github:registry='https://npm.pkg.github.com'"
+    "test": "prettier --config ./index.js --check examples/"
   },
   "devDependencies": {
     "prettier": "^2.8.0"
